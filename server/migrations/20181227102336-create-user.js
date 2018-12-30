@@ -1,13 +1,15 @@
-'use strict';
+"use strict";
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.sequelize.query('CREATE EXTENSION IF NOT EXISTS "uuid-ossp";');
-    return queryInterface.createTable('Users', {
+    await queryInterface.sequelize.query(
+      'CREATE EXTENSION IF NOT EXISTS "uuid-ossp";'
+    );
+    return queryInterface.createTable("Users", {
       id: {
         allowNull: false,
         primaryKey: true,
         type: Sequelize.UUID,
-        defaultValue: Sequelize.literal('uuid_generate_v4()')
+        defaultValue: Sequelize.literal("uuid_generate_v4()")
       },
       firstName: {
         allowNull: false,
@@ -22,7 +24,7 @@ module.exports = {
         type: Sequelize.STRING,
         unique: {
           args: true,
-          msg: 'Email address already in use!'
+          msg: "Email address already in use!"
         }
       },
       password_hash: {
@@ -40,6 +42,6 @@ module.exports = {
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Users');
+    return queryInterface.dropTable("Users");
   }
 };

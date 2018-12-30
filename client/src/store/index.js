@@ -1,14 +1,14 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import user from './modules/user'
-import post from './modules/post'
+import Vue from "vue";
+import Vuex from "vuex";
+import user from "./modules/user";
+import post from "./modules/post";
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 export default new Vuex.Store({
   modules: {
-      user,
-      post
+    user,
+    post
   },
   namespaced: true
-})
+});
