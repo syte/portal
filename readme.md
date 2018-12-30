@@ -21,7 +21,7 @@ Testing - Jest
 To run tests go into the root of the client folder and type `yarn run test:unit`
 
 # Images
-![Alt text](images/login.png "Login Page")
-![Alt text](images/register.png "Registration View")
-![Alt text](images/profile-view.png "Profile View")
-![Alt text](images/all-view.png "All Post View")
+![Alt text](images/portal-login.png "Login Page")
+![Alt text](images/portal-register.png "Registration View")
+![Alt text](images/portal-profile-view.png "Profile View")
+![Alt text](images/portal-all-view.png "All Post View")
