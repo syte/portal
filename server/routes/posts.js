@@ -38,7 +38,7 @@ router.put("/", async (req, res, next) => {
   }
 });
 
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", async (req, res, next) => {
   try {
     const post = await Model.Post.findOne({ where: { id: req.param.id } });
     if (!post) {
@@ -83,7 +83,7 @@ router.patch("/:id", async (req, res) => {
   }
 });
 
-router.post("/paginate", async (req, res) => {
+router.post("/paginate", async (req, res, next) => {
   const filterQuery = query => {
     let filter = {
       limit: 5,

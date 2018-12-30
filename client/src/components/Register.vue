@@ -14,7 +14,6 @@
 
 <script>
     import Input from "./Input.vue";
-    import Error from "./Error.vue";
     import Button from "./Button.vue";
     export default {
         data: function() {

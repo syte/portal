@@ -15,7 +15,6 @@
     // TODO: setup index
     import Input from "./Input.vue";
     import Button from "./Button.vue";
-    import Error from "./Error.vue";
     import Alert from "./Alert.vue";
     export default {
         data: function() {
@@ -28,7 +27,7 @@
             }
         },
         name: 'Login',
-        components: { Input, Button, Error, Alert },
+        components: { Input, Button, Alert },
         methods: {
             submit: async function(e) {
                 e.preventDefault();

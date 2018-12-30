@@ -1,6 +1,5 @@
 import Axios from "axios";
-
-const server = "http://localhost:3000";
+import {server} from "./config";
 
 export const paginatePosts = async query => {
   return Axios.post(`${server}/posts/paginate`, query);

@@ -74,7 +74,6 @@
         }
       },
       async remove() {
-        try {
           await this.$store.dispatch('post/deletePost', this.post.id );
           this.$notify({
             type: 'success',
@@ -82,10 +81,6 @@
             title: 'Post deleted!',
             text: 'Your post was successfully deleted!'
           });
-        }
-        catch(e) {
-
-        }
       },
       setEditing() {
         this.isEditing = !this.isEditing;

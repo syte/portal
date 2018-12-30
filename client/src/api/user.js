@@ -1,6 +1,5 @@
 import Axios from "axios";
-
-const server = "http://localhost:3000";
+import {server} from "./config";
 
 export const login = async credentials => {
   return Axios.post(`${server}/auth/login`, credentials);
