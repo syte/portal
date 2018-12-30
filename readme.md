@@ -4,12 +4,12 @@
 To demonstrate frontend backend skills necessary to be a web developer at PatientCo
 
 ## Technologies Used
-Backend MVC Framework - Express
-UI Library - Vue
-Database - Postgres
-State Management - Veux
-Routing - Veux Router
-Testing - Jest
+* Backend MVC Framework - Express
+* UI Library - Vue
+* Database - Postgres
+* State Management - Veux
+* Routing - Veux Router
+* Testing - Jest
 
 ## Setup
 1. Run initialize the initialization script by running `initialize.sh` from the root of the project directory.
