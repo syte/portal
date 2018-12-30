@@ -18,7 +18,7 @@ To demonstrate frontend backend skills necessary to be a web developer at Patien
 4. The application should now be fully running.
 
 ## Testing
-To run tests go into the root of the client folder and type `yarn run test:unit`
+To run tests go into the root of the client folder and type `yarn run test:unit`. Currently only frontend tests exist.
 
 ## Images
 ![Alt text](images/portal-login.png "Login Page")
