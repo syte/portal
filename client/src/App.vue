@@ -18,7 +18,7 @@
   export default {
     name: 'app',
     created() {
-      const token =localStorage.getItem('token');
+      const token = localStorage.getItem('token');
       if(token) {
         setToken(token);
         this.$store.dispatch('user/setToken', token);
