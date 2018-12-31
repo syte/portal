@@ -47,7 +47,7 @@ router.delete("/:id", async (req, res, next) => {
       return res.sendStatus(403);
     }
     await Models.Post.destroy({ where: { id: req.params.id } });
-    // TODO: Ensure the user has permissions to delete.
+
     res.sendStatus(200);
   } catch (e) {
     next(e);
