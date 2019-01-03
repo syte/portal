@@ -1,7 +1,7 @@
 # Portal Application
 
 ## Motivation
-To demonstrate frontend backend skills necessary to be a web developer at PatientCo
+To demonstrate frontend backend skills necessary to be a web developer.
 
 ## Technologies Used
 * Backend MVC Framework - Express
