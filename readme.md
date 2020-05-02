@@ -1,7 +1,7 @@
 # Portal Application
 
 ## Motivation
-To demonstrate frontend backend skills necessary to be a web developer.
+A simple twitter like clone.
 
 ## Technologies Used
 * Backend MVC Framework - Express
